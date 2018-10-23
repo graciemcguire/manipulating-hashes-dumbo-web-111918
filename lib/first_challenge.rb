@@ -23,3 +23,4 @@ contacts.each do |person, data|
     contacts
   end
 end
+end
