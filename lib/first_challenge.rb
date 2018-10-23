@@ -13,9 +13,8 @@ def first_challenge
     }
   }
   contacts.each do |person, data|
-    data.each do |attribute, value|
-      attribute.delete_if {|attribute, value| value >= "strawberry" }
-    end
+      data.delete_if {|attribute, value| value >= "strawberry" }
+      
   end
   contacts
 end
