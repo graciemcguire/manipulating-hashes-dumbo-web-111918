@@ -20,7 +20,8 @@ def first_challenge
           flavor.delete("strawberry")
         end
       end
+      contacts
     end
-    contacts
+    
   end
-end
+end  
