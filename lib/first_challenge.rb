@@ -20,6 +20,6 @@ contacts.each do |person, data|
         favorite_icecream_flavors.delete("strawberry")
       end
     end
+    contacts
   end
-  contacts
 end
